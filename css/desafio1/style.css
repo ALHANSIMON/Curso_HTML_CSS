@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.encabezado{
+
+    background-color: salmon;
+    
+}
+.cuerpo{
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.parent{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box{
+    height: 10rem;
+    
+}
+.box1{
+    background-color: blue;
+ 
+}
+.box2{
+    background-color: blueviolet;
+
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: coral;
+}
+.box6{
+    background-color: salmon;
+}
